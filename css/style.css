@@ -2,7 +2,7 @@
 
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial;
     color: #111;
     background: #fff;
 }
@@ -36,7 +36,6 @@ body {
 .hero {
     position: relative;
     width: 100%;
-    overflow: hidden;
 }
 .hero img {
     width: 100%;
@@ -77,7 +76,6 @@ body {
 .feature-card {
     position: relative;
     height: 440px;
-    overflow: hidden;
 }
 .feature-card img {
     width: 100%;
@@ -104,7 +102,6 @@ body {
 }
 .tile {
     height: 300px;
-    overflow: hidden;
 }
 .tile img {
     width: 100%;
@@ -114,7 +111,7 @@ body {
 .product-row {
     display: flex;
     gap: 10px;
-    overflow-x: auto;
+
 }
 .product-card {
     min-width: 280px;
